@@ -1,0 +1,87 @@
+
+{
+  "name": "LamiyaBotAZ",
+  "description": "Telegram qrup idarə edicisi.",
+  "keywords": [
+    "telegram",
+    "best",
+    "group",
+    "manager",
+    "3"
+  ],
+  "repository": "https://github.com/ValiyevAli/LamiyaBOT",
+  "env": {
+    "ENV": {
+      "description": "ANYTHING olaraq qalmağı tövsiyyə olunur",
+      "value": "ANYTHING"
+    },
+    "TOKEN": {
+      "description": "Sizin Telegram bot token.",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Botun sahibinin ID nömrəsi",
+      "value": "683538773"
+    },
+    "OWNER_USERNAME": {
+      "description": "Sizin istifadəçi adı",
+      "value": "valiyevali"
+    },
+    "WEBHOOK": {
+      "description": "ANYTHING olaraq qalmağı tövsiyyə olunur",
+      "value": "ANYTHING"
+    },
+    "URL": {
+      "description": "Heroku URL misal üçün https://<sizin-proqram-adı>.herokuapp.com/",
+      "value": ""
+    },
+    "MESSAGE_DUMP": {
+      "description": "Müəyyən LOG-ların saxlanıldığı Chat ID",
+      "value": "-1007777777777"
+    },
+    "SUDO_USERS": {
+      "description": "Sudo (admin) istifadəçi ID-ləri",
+      "value": "254318997 683538773 570400686 466337795"
+    },
+    "SUPPORT_USERS": {
+      "description": "Global ban verə biləcək istifadəçilərin ID-ləri",
+      "value": "254318997 683538773 570400686 466337795"
+    },
+    "WHITELIST_USERS": {
+      "description": "Ağ list-də olan istifadəçilərin siyahısı (bu sayıda olan insanlar heç bir qrupda ban ola bilməz və ya susturula bilməz!)",
+      "value": "254318997 683538773 570400686 466337795"
+    },
+    "DONATION_LINK": {
+      "description": "Sizə pul bağışlamaq istəyən insanlara göndəriləcək link. (PayPal hesabı olmayada bilər)",
+      "value": "https://www.paypal.me/sizin-paypal-hesabı"
+    },
+    "PORT": {
+      "description": "Webhook üçün port",
+      "value": "8443"
+    },
+    "DEL_CMDS": {
+      "description": "Əgər hər hansı istifadəçi onun üçün nəzərdə tutulan komandadan istifadə etsə həmən komanda silinsin? (False etsəniz silinməyəcək.)",
+      "value": "True"
+    },
+    "STRICT_GBAN": {
+      "description": "Gban olan insanlar digər qruplarda danışa bilsinlər? (False etsəniz danışa biləcəklər.)",
+      "value": "True"
+    },
+    "ALLOW_EXCL": {
+      "description": "Komanda yazdığınızda / yerinə ! işarəsi qoyulsa qəbul edilsin? (False olsa qəbul edilməyəcək)",
+      "value": "True"
+    },
+    "BAN_STICKER": {
+      "description": "Qadağan olunan stickerlər",
+      "value": "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxYE"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "10"
+      }
+    }
+  ]
+}
